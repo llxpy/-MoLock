@@ -137,7 +137,7 @@ molock/
 **LLXPY**
 
 - GitHub: [@LLXPY](https://github.com/LLXPY)
-- 掘金: [@LLXPY](https://juejin.cn/user/LLXPY)
+- 掘金: [@LLXPY](https://juejin.cn/post/7661939225987006498)
 
 ---
 
