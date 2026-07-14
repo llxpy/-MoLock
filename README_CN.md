@@ -2,7 +2,7 @@
 
 > 墨家「经说双链」—— 一套中文大模型语义约束推理架构，把几千年前的墨学工程语言搬进 AI。
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT   条款:](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![条款:](https://img.shields.io/badge/License-MIT-yellow.svg)] (https://opensource.org/licenses/MIT)
 
 ---
 
@@ -118,7 +118,7 @@
 
 ```
 molock/
-├── skills/
+├── skills/   ├──技能/
 │   ├── 墨学双链总控编排/      # 总控入口，串联全链
 │   ├── 00-预处理与防注入/      # 清洗 + 注入检测
 │   ├── 01-经凝练升温/          # 白话→浅文言
@@ -127,20 +127,8 @@ molock/
 │   ├── 04-动态意图路由/        # 发散/收敛判定
 │   └── 05-模式联动后置校验/    # 双阈值校验
 ├── README.md
-└── LICENSE
+└── LICENSE   └──勘探许可证
 ```
-
----
-
-## 路线图
-
-- [x] 7 模块完整流水线
-- [x] 三级降级体系
-- [x] 初步对比实验（3 题）
-- [ ] 大规模定量实验（100+ 题，多模型）
-- [ ] 非 LLM 步骤规则化（预处理/自检/路由→代码）
-- [ ] 简单问题快速通道（跳过非必要步骤）
-- [ ] 性能优化与延迟降低
 
 ---
 
